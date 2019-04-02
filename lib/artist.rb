@@ -1,4 +1,3 @@
-require 'pry'
 extend Concerns::Findable
 
 class Artist
