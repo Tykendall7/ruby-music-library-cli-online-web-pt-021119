@@ -1,5 +1,5 @@
 require 'pry'
-extend 
+extend Conerns::Findable
 
 class Artist
   attr_accessor :name, :artist, :songs, :genres
