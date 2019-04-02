@@ -33,8 +33,8 @@ class Song
   
   def self.create(name)
    song= self.new (name)
-   @song= song
-   @song
+   song.save
+   song
  end
   
   def self.find_by_name(song_name)
