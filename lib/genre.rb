@@ -1,5 +1,5 @@
 class Genre
-  extend Conerns::Findable
+  extend Concerns::Findable
   
   attr_accessor :name, :songs, :artists
   
