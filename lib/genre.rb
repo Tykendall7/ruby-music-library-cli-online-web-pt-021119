@@ -1,4 +1,5 @@
 class Genre
+  extend Conerns::Findable
   attr_accessor :name, :songs, :artists
   
   @@all = []
