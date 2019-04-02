@@ -32,7 +32,7 @@ class Song
   end
   
   def self.create(name)
-   song= self.new (song)
+   song= self.new (name)
    @song= song
    @song
  end
